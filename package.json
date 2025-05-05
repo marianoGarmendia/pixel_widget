@@ -1,0 +1,12 @@
+{
+  "name": "widget_agent",
+  "version": "1.0.0",
+  "main": "widget.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
