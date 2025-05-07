@@ -14,9 +14,9 @@
     Object.assign(btn.style, {
       position: 'fixed',
       bottom: '24px',
-      right: '24px',
+      left: '24px',
       padding: '12px 16px',
-      'background-color': '#4F46E5',
+      'background-color': '#0047FF',
       color: 'white',
       'border-radius': '24px',
       'box-shadow': '0 2px 8px rgba(0,0,0,0.2)',
@@ -54,7 +54,7 @@
     btn.addEventListener('click', () => {
       open = !open;
       container.style.display = open ? 'block' : 'none';
-      btn.innerText = open ? 'Cerrar chat' : 'Chat';
+      btn.innerText = open ? 'Cerrar asistente' : 'Asistente';
     });
   })();
   
