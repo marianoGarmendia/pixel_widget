@@ -10,7 +10,7 @@
   
     // Crea el botón flotante
     const btn = document.createElement('button');
-    btn.innerText = 'Chat';
+    btn.innerText = 'Asistente';
     Object.assign(btn.style, {
       position: 'fixed',
       bottom: '24px',
