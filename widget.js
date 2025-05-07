@@ -30,7 +30,7 @@
     Object.assign(container.style, {
       position: 'fixed',
       bottom: '80px',
-      right: '24px',
+      left: '24px',
       width: '350px',
       height: '500px',
       'box-shadow': '0 2px 12px rgba(0,0,0,0.3)',
