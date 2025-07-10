@@ -37,7 +37,7 @@ Object.assign(img.style, {
 
 // Etiqueta debajo de la imagen
 const label = document.createElement('div');
-label.textContent = '¿Pixel W.S?';
+label.textContent = 'Pixel W.S';
 Object.assign(label.style, {
   backgroundColor: '#2E2B86',
   color: '#eee',
