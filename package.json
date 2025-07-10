@@ -1,12 +1,16 @@
 {
   "name": "widget_agent",
   "version": "1.0.0",
+  "type": "module",
   "main": "widget.js",
   "scripts": {
-    
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "5.1.0"
+  }
 }
