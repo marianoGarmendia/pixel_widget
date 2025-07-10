@@ -1,3 +1,11 @@
+
+(function() {
+   const scriptTag = document.currentScript; // ✅ Esto es necesario
+  const agentUrl = scriptTag.getAttribute('data-agent-url');
+  if (!agentUrl) {
+    console.error('widget.js: falta el atributo data-agent-url');
+    return;
+  }
 // Crea el botón flotante como contenedor
 const btn = document.createElement('div');
 Object.assign(btn.style, {
@@ -44,3 +52,5 @@ Object.assign(label.style, {
 btn.appendChild(img);
 btn.appendChild(label);
 document.body.appendChild(btn);
+
+ })();
